@@ -1,10 +1,10 @@
 import React from "react";
 import { ButtonContainer } from "./styles";
 
-export default function Button() {
+export default function Button({onClick}) {
 	return (
-		<ButtonContainer>
-			<button>Botão</button>
+		<ButtonContainer onClick={onClick}>
+			Buscar
 		</ButtonContainer>
 	);
 }
